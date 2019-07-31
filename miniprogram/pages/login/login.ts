@@ -16,6 +16,7 @@ Page({
         const { code } = res
         request({
           url: GET_OPEN_ID,
+          method: 'POST',
           data: {
             code,
           },

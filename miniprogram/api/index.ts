@@ -6,7 +6,7 @@ import {
 /**
  *  后端服务地址
  */
-export const SERVER_PATH = ''
+export const SERVER_PATH = 'http://localhost:3001'
 
 /**
  *  获取openid接口路径
